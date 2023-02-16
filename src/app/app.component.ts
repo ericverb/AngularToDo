@@ -20,7 +20,7 @@ export class AppComponent {
   workout = { task: "Get in Shape", completed: false }
 
   title = 'TODOList';
-  component: TODO[] = [this.work, this.school, this.homework, this.laundry,this.car,this.clean,this.makemoney,this.workout]
+  component: TODO[] = [this.work, this.school, this.homework, this.laundry, this.car, this.clean, this.makemoney, this.workout]
 
 
 
@@ -29,13 +29,13 @@ export class AppComponent {
     this.component.push(newtodo);
   }
 
-  completeTask(i:number) {
+  completeTask(i: number) {
     this.component[i].completed = true
   }
 
 }
 
-interface TODO{
+interface TODO {
   task: string
   completed: boolean
 }

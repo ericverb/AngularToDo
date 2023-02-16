@@ -4,21 +4,21 @@ body {
 
 h1 {
     color: black;
-    font-family: Open San;
+    font-family: Open Sans;
     font-size: 200%;
 
 }
 
 h2 {
     color: black;
-    font-family: Open San;
+    font-family: Open Sans;
     font-size: 100%;
 
 }
 
 button {
-    background: white;
-    font-family: Open San;
+    background: #eee;
+    font-family: Open Sans;
     border: 2px;
     color: #ff69b4;
     border-style: solid;
@@ -27,19 +27,17 @@ button {
 }
 
 div {
-    background-color: whitesmoke;
+    background-color: #eee;
     font-family: Open San;
-
-
 }
 
 p {
-    background-color: whitesmoke;
+    background-color: #eee;
 
 }
 
 form {
-    background-color: whitesmoke;
+    background-color: #eee;
     margin: auto;
     width: 100%;
 }
@@ -52,13 +50,15 @@ form {
 
 .buttonA {
     background: #ff1493;
-    font-family: Open San;
+    font-family: Open Sans;
     border: 2px;
-    color: whitesmoke;
+    color: #eee;
     border-style: solid;
     border-color: #ff1493;
     border-radius: 3px;
     width: 100%;
+    padding: 5px;
+
 }
 
 input {
