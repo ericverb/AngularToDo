@@ -17,18 +17,15 @@ export class AppComponent {
   title = 'TODOList';
   component: { task: string, completed: boolean }[] = [this.work, this.school, this.homework, this.laundry]
 
-  //component : string[] = [ "Fold Clothes","Do Homework","Go to Work","Play Bills","Go To Class"]
-
 
 
   addTask(form: NgForm) {
-    let newtodo = form.form.value.name;
+    let newtodo = { task: form.value.name, completed: false }
     this.component.push(newtodo);
   }
 
-  completeTask(form: NgForm) {
-    let newtodo = form.form.value.name;
-    this.component.push(newtodo);
+  completeTask(i:number) {
+    this.component[i].completed = true
   }
 
 }

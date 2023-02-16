@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: linear-gradient(to right, #f857a6, #ff5858);
+  }
+
+  h1 {
+    color: black;
+    font-family: Open San;
+    font-size: 300%;
+
+  }
+  h2 {
+    color: black;
+    font-family: Open San;
+    font-size: 200%;
+
+  }
+  button {
+    background: white;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 80px;
+}

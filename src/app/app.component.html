@@ -1,12 +1,12 @@
 <h1>{{ title }}</h1>
-<p>A place to store your todos</p>
+<h2>A place to store your todos</h2>
 
 <div *ngFor="let name of component; index as i">
-  <div>  {{i+1}}. <button>Complete</button>  {{name.task}} </div>
+  <div> {{i+1}}. <button *ngIf="!name.completed" (click)="completeTask(i)">Complete</button> {{name.task}} </div>
 </div>
 
 <form #addtodoForm="ngForm" (ngSubmit)="addTask(addtodoForm)">
- <input name="name" id="name" placeholder = "Add your to-do" ngModel />
- <div> <button>Add</button>
- </div>
+  <input name="name" id="name" placeholder="Add your to-do" ngModel />
+  <div> <button>Add</button>
+  </div>
 </form>
