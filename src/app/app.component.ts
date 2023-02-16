@@ -14,8 +14,13 @@ export class AppComponent {
   school = { task: "Go to Grand Circus", completed: false };
   homework = { task: "Do Homework", completed: true }
   laundry = { task: "Fold Clothes", completed: false }
+  car = { task: "Get Gas", completed: false }
+  clean = { task: "Clean House", completed: false }
+  makemoney = { task: "Side Hustle", completed: false }
+  workout = { task: "Get in Shape", completed: false }
+
   title = 'TODOList';
-  component: { task: string, completed: boolean }[] = [this.work, this.school, this.homework, this.laundry]
+  component: TODO[] = [this.work, this.school, this.homework, this.laundry,this.car,this.clean,this.makemoney,this.workout]
 
 
 
@@ -28,4 +33,9 @@ export class AppComponent {
     this.component[i].completed = true
   }
 
+}
+
+interface TODO{
+  task: string
+  completed: boolean
 }
