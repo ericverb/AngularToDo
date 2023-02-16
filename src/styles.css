@@ -1,23 +1,68 @@
 body {
     background: linear-gradient(to right, #f857a6, #ff5858);
-  }
+}
 
-  h1 {
-    color: black;
-    font-family: Open San;
-    font-size: 300%;
-
-  }
-  h2 {
+h1 {
     color: black;
     font-family: Open San;
     font-size: 200%;
 
-  }
-  button {
+}
+
+h2 {
+    color: black;
+    font-family: Open San;
+    font-size: 100%;
+
+}
+
+button {
     background: white;
-    border: 3px;
+    font-family: Open San;
+    border: 2px;
+    color: #ff69b4;
     border-style: solid;
-    border-color: black;
-    border-radius: 80px;
+    border-color: #ff69b4;
+    border-radius: 3px;
+}
+
+div {
+    background-color: whitesmoke;
+    font-family: Open San;
+
+
+}
+
+p {
+    background-color: whitesmoke;
+
+}
+
+form {
+    background-color: whitesmoke;
+    margin: auto;
+    width: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 1px;
+}
+
+.buttonA {
+    background: #ff1493;
+    font-family: Open San;
+    border: 2px;
+    color: whitesmoke;
+    border-style: solid;
+    border-color: #ff1493;
+    border-radius: 3px;
+    width: 100%;
+}
+
+input {
+    margin: auto;
+    width: 100%;
+    padding: 1px;
 }
